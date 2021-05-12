@@ -26,28 +26,28 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Checkmarx CxFlow Action
-  # You may pin to the exact commit or the version.
-  # uses: checkmarx-ts/checkmarx-cxflow-github-action@fe2a395cbbee31268470d92b6c53ebc483005f0f
-  uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.1
-  with:
-    
-    # GitHub API Token
-    github_token: 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
-    # Vulnerability Scanners (sast, sca, ast, cxgo)
-    scanners: sca 
-    # Provide SCA API URL
-    sca_api_url: https://eu.api.scacheckmarx.com
-    # Provide SCA APP URL
-    sca_app_url: https://eu.sca.checkmarx.com
-    # Provide SCA Access Control URL
-    sca_access_control_url: https://eu.platform.checkmarx.net
-    # Provide SCA Tenant
-    sca_tenant: SCATraining 
-    # Provide SCA Username
-    sca_username: Noel 
-    # Provide SCA Password
-    sca_password: n86@rO8QqPBY 
-    
+        # You may pin to the exact commit or the version.
+        # uses: checkmarx-ts/checkmarx-cxflow-github-action@fe2a395cbbee31268470d92b6c53ebc483005f0f
+        uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.1
+        with:
+
+          # GitHub API Token
+          github_token: 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
+          # Vulnerability Scanners (sast, sca, ast, cxgo)
+          scanners: sca 
+          # Provide SCA API URL
+          sca_api_url: https://eu.api.scacheckmarx.com
+          # Provide SCA APP URL
+          sca_app_url: https://eu.sca.checkmarx.com
+          # Provide SCA Access Control URL
+          sca_access_control_url: https://eu.platform.checkmarx.net
+          # Provide SCA Tenant
+          sca_tenant: SCATraining 
+          # Provide SCA Username
+          sca_username: Noel 
+          # Provide SCA Password
+          sca_password: n86@rO8QqPBY 
+
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
