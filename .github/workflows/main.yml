@@ -31,6 +31,7 @@ jobs:
         uses: checkmarx-ts/checkmarx-cxflow-github-action@v1.1
         with:
           team: /CxServer/SCA_Training
+          project: noel_cxflow
           # GitHub API Token
           github_token: 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
           # Vulnerability Scanners (sast, sca, ast, cxgo)
