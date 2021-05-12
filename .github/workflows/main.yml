@@ -37,9 +37,9 @@ jobs:
           # Vulnerability Scanners (sast, sca, ast, cxgo)
           scanners: sca 
           # Provide SCA API URL
-          sca_api_url: https://eu.api.scacheckmarx.com
+          sca_api_url: https://eu.api.scacheckmarx.net
           # Provide SCA APP URL
-          sca_app_url: https://eu.sca.checkmarx.com
+          sca_app_url: https://eu.sca.checkmarx.net
           # Provide SCA Access Control URL
           sca_access_control_url: https://eu.platform.checkmarx.net
           # Provide SCA Tenant
