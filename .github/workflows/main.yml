@@ -47,7 +47,7 @@ jobs:
           # Provide SCA Username
           sca_username: Noel 
           # Provide SCA Password
-          sca_password: n86@rO8QqPBY 
+          sca_password: ********** 
 
 
       # Runs a single command using the runners shell
